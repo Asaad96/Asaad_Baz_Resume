@@ -1,0 +1,21 @@
+{
+  "name": "tailwind_cv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/assets/css/style.css",
+    "watch": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  }
+}
